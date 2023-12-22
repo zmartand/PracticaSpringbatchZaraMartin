@@ -2,8 +2,8 @@ services:
   postgres:
     image: postgres:16.1
     environment:
-    - POSTGRES_DB=PracticaSpringbatch
+    - POSTGRES_DB=practicaspringbatchzara
     - POSTGRES_USER=postgres
     - POSTGRES_PASSWORD=P4ssword!
     ports:
-    - 5433:5432
+    - 5432:5432

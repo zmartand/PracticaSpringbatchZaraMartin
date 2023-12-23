@@ -36,6 +36,4 @@ public class JobController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Job failed to start.");
         }
     }
-
-    // Puedes agregar más endpoints para operaciones adicionales si es necesario.
 }
